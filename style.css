@@ -10,7 +10,6 @@
 }
 
 body {
-	
 }
 
 .main {
@@ -284,7 +283,7 @@ header {
 	box-sizing: border-box;
 	padding: 0.3rem;
 	box-shadow: 0 0 20px rgb(167, 166, 166);
-	border-radius: .7rem;
+	border-radius: 0.7rem;
 }
 
 @media all and (max-width: 1115px) {
@@ -358,7 +357,6 @@ header {
 	}
 }
 
-
 /* --------------------------- Popular ----------------------------*/
 .popular {
 	background-color: #f2f2f2;
@@ -397,7 +395,7 @@ header {
 
 .cardpop__body {
 	color: black;
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	margin-left: 1rem;
 }
@@ -407,16 +405,81 @@ header {
 	.popular {
 		grid-row-start: 1;
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr 1fr ;
+		grid-template-rows: 1fr 1fr 1fr;
 	}
-	
 }
-
 
 /*--------------------Activity------------------------*/
 
-.mainactivity {
-	margin-top: 2rem;
+.activity__img1 img {
+	width: 302px;
+	height: 390px;
 }
 
+.activity__img2 img {
+	width: 302px;
+	height: 182px;
+}
 
+.activity__img3 img {
+	width: 302px;
+	height: 111px;
+}
+
+.activity__img4 img {
+	width: 302px;
+	height: 390px;
+}
+
+.activity__img5 img {
+	width: 302px;
+	height: 141px;
+}
+
+.activity__img6 img {
+	width: 302px;
+	height: 154px;
+}
+
+.mainactivity {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+		'act1 act2 act4 act5'
+		'act3 act6';
+}
+
+.activity__one {
+	grid-area: act1;
+}
+
+.activity__two {
+	grid-area: act2;
+}
+
+.activity__three {
+	grid-area: act3;
+}
+
+.activity__four {
+	grid-area: act4;
+}
+
+.activity__five {
+	grid-area: act5;
+}
+
+.activity__six {
+	grid-area: act6;
+}
+/*.mainactivity {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.activity {
+	display: flex;
+	justify-content: space-between;
+}*/
