@@ -21,6 +21,10 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+	font-weight: bold;
+}
+
 /* -------------------------------Header---------------------------------- */
 header {
 	display: grid;
@@ -411,43 +415,24 @@ header {
 
 /*--------------------Activity------------------------*/
 
-.activity__img1 img {
-	width: 302px;
-	height: 390px;
-}
-
-.activity__img2 img {
-	width: 302px;
-	height: 182px;
-}
-
-.activity__img3 img {
-	width: 302px;
-	height: 111px;
-}
-
-.activity__img4 img {
-	width: 302px;
-	height: 390px;
-}
-
-.activity__img5 img {
-	width: 302px;
-	height: 141px;
-}
-
-.activity__img6 img {
-	width: 302px;
-	height: 154px;
-}
-
 .mainactivity {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: auto 1fr;
+}
+
+.activity {
+	display: grid;
 	grid-template-areas:
 		'act1 act2 act4 act5'
-		'act3 act6';
+		'act1 act2 act4 ...'
+		'act1 act2 act4 act6'
+		'act1 null act4 act6'
+		'act1 act3 act4 act6';
+
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 12rem 2rem 2rem 2rem 12rem;
+	column-gap: 2rem;
+	margin: 1rem 0;
 }
 
 .activity__one {
@@ -473,13 +458,30 @@ header {
 .activity__six {
 	grid-area: act6;
 }
-/*.mainactivity {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
+
+.activity__imgcontain {
+	position: relative;
+	flex-grow: 1;
 }
 
-.activity {
+.activity__img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.activity__card {
+	color: black;
+	width: 100%;
+	height: 100%;
 	display: flex;
-	justify-content: space-between;
-}*/
+	flex-direction: column;
+	overflow: hidden;
+	border-radius: 1rem;
+	box-shadow: 0 0 20px rgb(167, 166, 166);
+}
+
+.activity__place {
+	margin-left: 1rem;
+}
