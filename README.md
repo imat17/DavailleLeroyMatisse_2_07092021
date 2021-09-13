@@ -2,7 +2,8 @@
 Projet 2 "Reservia" de la formation OpenClassRooms
 
 # Reservia
-Deuxième projet de la formation de Développeur Web d'OpenClassRooms. Objectif : l'intégration d'une maquette d'un site d'organisation de vacances "Reservia":
+Deuxième projet de la formation de Développeur Web d'OpenClassRooms. 
+Objectif : l'intégration d'une maquette d'un site d'organisation de vacances "Reservia":
 ![Desktop - 1](https://user-images.githubusercontent.com/82090592/132313860-c55548b5-91eb-40a8-a764-8db0e793f959.png)
 
 ## Technologies utilisées 
