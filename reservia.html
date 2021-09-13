@@ -15,8 +15,8 @@
     <header>
         <img class="header__logo" src="Images/logo/Reservia.svg" alt="logoreservia" title="logoreservia">
         <nav class="navbar">
-            <a class="navbar__navlink" href="">Hébergements</a>
-            <a class="navbar__navlink" href="">Activités</a>
+            <a class="navbar__navlink" href="#maincontainer">Hébergements</a>
+            <a class="navbar__navlink" href="#mainactivity">Activités</a>
         </nav>
         <a class="navlink__register" href="">S'inscrire</a>
     </header>
@@ -67,7 +67,7 @@
     </div>
 
     <!--Hébergements + Populaires-->
-    <div class="maincontainer">
+    <div class="maincontainer" id="maincontainer">
             <!--Hébergements-->
         <section class="accommodation">
             <h2 class="accommodation__title">Hébergements à Marseille</h2>
@@ -86,7 +86,7 @@
                         <span class="star__full"><i class="fas fa-star"></i></span>
                         <span class="star__full"><i class="fas fa-star"></i></span>
                         <span class="star__full"><i class="fas fa-star"></i></span>
-                        <span class="star__empty"><i class="far fa-star"></i></span>
+                        <span class="star__empty"><i class="fas fa-star"></i></span>
                     </div>
                     </a>
                 </article>
@@ -126,7 +126,7 @@
                         <span class="star__full"><i class="fas fa-star"></i></span>
                         <span class="star__full"><i class="fas fa-star"></i></span>
                         <span class="star__full"><i class="fas fa-star"></i></span>
-                        <span class="star__empty"><i class="far fa-star"></i></span>
+                        <span class="star__empty"><i class="fas fa-star"></i></span>
                     </div>
                     </a>
                 </article>
@@ -145,8 +145,8 @@
                         <span class="star__full"><i class="fas fa-star"></i></span>
                         <span class="star__full"><i class="fas fa-star"></i></span>
                         <span class="star__full"><i class="fas fa-star"></i></span>
-                        <span class="star__empty"><i class="far fa-star"></i></span>
-                        <span class="star__empty"><i class="far fa-star"></i></span>
+                        <span class="star__empty"><i class="fas fa-star"></i></span>
+                        <span class="star__empty"><i class="fas fa-star"></i></span>
                     </div>
                     </a>
                 </article>
@@ -166,7 +166,7 @@
                         <span class="star__full"><i class="fas fa-star"></i></span>
                         <span class="star__full"><i class="fas fa-star"></i></span>
                         <span class="star__full"><i class="fas fa-star"></i></span>
-                        <span class="star__empty"><i class="far fa-star"></i></span>
+                        <span class="star__empty"><i class="fas fa-star"></i></span>
                     </div>
                     </a>
                 </article>
@@ -206,7 +206,7 @@
                         <img class="cardpop__img" src="Images/hebergement/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel du port"/>
                     </div>
                     <div class="cardpop__body">
-                        <h3 class="cardpop__title">Hôtel le soleil du matin</h3>
+                        <h3 class="cardpop__title">Hôtel le soleil du <br>matin</br></h3>
                         <p class="cardpop__text">Nuit à partir de <span class="card__price">128€</span></p>
                         <div class="cardpop__footer">
                             <span class="star__full"><i class="fas fa-star"></i></span>
@@ -234,7 +234,7 @@
                             <span class="star__full"><i class="fas fa-star"></i></span>
                             <span class="star__full"><i class="fas fa-star"></i></span>
                             <span class="star__full"><i class="fas fa-star"></i></span>
-                            <span class="star__full"><i class="far fa-star"></i></span>
+                            <span class="star__full"><i class="fas fa-star"></i></span>
                         </div>
                     </div>
                     
@@ -249,14 +249,14 @@
                         <img class="cardpop__img" src="Images/hebergement/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"/>
                     </div>
                     <div class="cardpop__body">
-                        <h3 class="cardpop__title">Hôtel Tout bleu et Blanc</h3>
+                        <h3 class="cardpop__title">Hôtel Tout bleu et <br>Blanc</br></h3>
                         <p class="cardpop__text">Nuit à partir de <span class="card__price">68€</span></p>
                         <div class="cardpop__footer">
                             <span class="star__full"><i class="fas fa-star"></i></span>
                             <span class="star__full"><i class="fas fa-star"></i></span>
                             <span class="star__full"><i class="fas fa-star"></i></span>
                             <span class="star__full"><i class="fas fa-star"></i></span>
-                            <span class="star__empty"><i class="far fa-star"></i></span>
+                            <span class="star__empty"><i class="fas fa-star"></i></span>
                         </div>
                     </div>
                     
@@ -265,7 +265,7 @@
         </aside>
     </div>
         <!--Activitées-->
-        <div class="mainactivity">
+        <div class="mainactivity" id="mainactivity">
             <h2>Activités à Marseille</h2>
             <div class="activity">
                 <div class="activity__one">
@@ -343,6 +343,28 @@
             </div>
         </div> 
     </main>
+
+    <footer>
+        <div class="footer__links">
+            <h5 class="footer__title">A propos</h5>
+            <a class="footer__link">Fonctionnement du site</a>
+            <a class="footer__link">Conditions générales de vente</a>
+            <a class="footer__link">Données et confidentialité</a>
+        </div>
+
+        <div class="footer__links">
+            <h5 class="footer__title">Nos hébergements</h5>
+            <a class="footer__link">Charte qualité</a>
+            <a class="footer__link">Soumettre votre hôtel</a>
+        </div>
+
+        <div class="footer__links">
+            <h5 class="footer__title">Assistance</h5>
+            <a class="footer__link">Centre d'aide</a>
+            <a class="footer__link">Nous contacter</a>
+        </div>
+            
+    </footer>
     
     <footer>
 
