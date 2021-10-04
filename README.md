@@ -1,9 +1,9 @@
 # DavailleLeroyMatisse_2_07092021
-Projet 2 "Reservia" de la formation OpenClassRooms
+Projet 2 "Booki" de la formation OpenClassRooms
 
 # Reservia
 Deuxième projet de la formation de Développeur Web d'OpenClassRooms. 
-Objectif : l'intégration d'une maquette d'un site d'organisation de vacances "Reservia":
+Objectif : l'intégration d'une maquette d'un site d'organisation de vacances "Booki":
 <img width="1440" alt="Desktop - 1" src="https://user-images.githubusercontent.com/82090592/135874137-13a551fc-edf1-4567-8b00-e693ce1c039c.png">
 
 
