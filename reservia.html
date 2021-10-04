@@ -11,14 +11,17 @@
     <title>Reservia</title>
 </head>
 <body>
+
     <main class="main">
+
     <header>
-        <img class="header__logo" src="Images/logo/Reservia.svg" alt="logoreservia" title="logoreservia">
+        <div class="test">
+        <img class="header__logo" src="Images/logo/Booki@3x.png" alt="logoreservia" title="logoreservia">
+        </div>
         <nav class="navbar">
             <a class="navbar__navlink" href="#maincontainer">Hébergements</a>
             <a class="navbar__navlink" href="#mainactivity">Activités</a>
         </nav>
-        <a class="navlink__register" href="">S'inscrire</a>
     </header>
 
     <!--Barre de recherche-->
@@ -79,7 +82,7 @@
                     </div>
                     <div class="card__body">
                         <h3 class="card__title">Auberge la Cannebière</h3>
-                        <p class="card__text">Nuit à partir de <span class="card__price">25€</span></p>
+                        <p class="card__text">Nuit à partir de <span class="card__price--bold">25<span class="eur">€</span></span></p>
                     </div>
                     <div class="card__footer">
                         <span class="star__full"><i class="fas fa-star"></i></span>
@@ -99,7 +102,7 @@
                     </div>
                     <div class="card__body">
                         <h3 class="card__title">Hôtel du port</h3>
-                        <p class="card__text">Nuit à partir de <span class="card__price">52€</span></p>
+                        <p class="card__text">Nuit à partir de <span class="card__price">52<span class="eur">€</span></span></p>
                     </div>
                     <div class="card__footer">
                         <span class="star__full"><i class="fas fa-star"></i></span>
@@ -119,7 +122,7 @@
                     </div>
                     <div class="card__body">
                         <h3 class="card__title">Hôtel Les mouettes</h3>
-                        <p class="card__text">Nuit à partir de <span class="card__price">76€</span></p>
+                        <p class="card__text">Nuit à partir de <span class="card__price">76<span class="eur">€</span></span></p>
                     </div>
                     <div class="card__footer">
                         <span class="star__full"><i class="fas fa-star"></i></span>
@@ -139,7 +142,7 @@
                     </div>
                     <div class="card__body">
                         <h3 class="card__title">Hôtel de la mer</h3>
-                        <p class="card__text">Nuit à partir de <span class="card__price">46€</span></p>
+                        <p class="card__text">Nuit à partir de <span class="card__price">46<span class="eur">€</span></span></p>
                     </div>
                     <div class="card__footer">
                         <span class="star__full"><i class="fas fa-star"></i></span>
@@ -159,7 +162,7 @@
                     </div>
                     <div class="card__body">
                         <h3 class="card__title">Auberge Le Panier</h3>
-                        <p class="card__text">Nuit à partir de <span class="card__price">23€</span></p>
+                        <p class="card__text">Nuit à partir de <span class="card__price--bold">23<span class="eur">€</span></span></p>
                     </div>
                     <div class="card__footer">
                         <span class="star__full"><i class="fas fa-star"></i></span>
@@ -179,7 +182,7 @@
                     </div>
                     <div class="card__body">
                         <h3 class="card__title">Hôtel chez Amina</h3>
-                        <p class="card__text">Nuit à partir de <span class="card__price">96€</span></p>
+                        <p class="card__text">Nuit à partir de <span class="card__price">96<span class="eur">€</span></span></p>
                     </div>
                     <div class="card__footer">
                         <span class="star__full"><i class="fas fa-star"></i></span>
@@ -206,8 +209,10 @@
                         <img class="cardpop__img" src="Images/hebergement/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel du port"/>
                     </div>
                     <div class="cardpop__body">
-                        <h3 class="cardpop__title">Hôtel le soleil du <br>matin</br></h3>
-                        <p class="cardpop__text">Nuit à partir de <span class="card__price">128€</span></p>
+                        <div class="cardpop__info">
+                            <h3 class="cardpop__title">Hôtel le soleil du <br>matin</br></h3>
+                            <p class="cardpop__text">Nuit à partir de <span class="card__price">128<span class="eur">€</span></span></p>
+                        </div>
                         <div class="cardpop__footer">
                             <span class="star__full"><i class="fas fa-star"></i></span>
                             <span class="star__full"><i class="fas fa-star"></i></span>
@@ -227,8 +232,10 @@
                         <img class="cardpop__img" src="Images/hebergement/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau chambres d'hôtes"/>
                     </div>
                     <div class="cardpop__body">
-                        <h3 class="cardpop__title">Au coeur de l'eau <br>Chambres d'hôtes</br></h3>
-                        <p class="cardpop__text">Nuit à partir de <span class="card__price">71€</span></p>
+                        <div class="cardpop__info">
+                            <h3 class="cardpop__title">Au coeur de l'eau <br>Chambres d'hôtes</br></h3>
+                            <p class="cardpop__text">Nuit à partir de <span class="card__price">71<span class="eur">€</span></span></p>
+                        </div>
                         <div class="cardpop__footer">
                             <span class="star__full"><i class="fas fa-star"></i></span>
                             <span class="star__full"><i class="fas fa-star"></i></span>
@@ -249,8 +256,10 @@
                         <img class="cardpop__img" src="Images/hebergement/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"/>
                     </div>
                     <div class="cardpop__body">
-                        <h3 class="cardpop__title">Hôtel Tout bleu et <br>Blanc</br></h3>
-                        <p class="cardpop__text">Nuit à partir de <span class="card__price">68€</span></p>
+                        <div class="cardpop__info">
+                            <h3 class="cardpop__title">Hôtel Tout bleu et <br>Blanc</br></h3>
+                            <p class="cardpop__text">Nuit à partir de <span class="card__price">68<span class="eur">€</span></span></p>
+                        </div>
                         <div class="cardpop__footer">
                             <span class="star__full"><i class="fas fa-star"></i></span>
                             <span class="star__full"><i class="fas fa-star"></i></span>
@@ -345,6 +354,7 @@
     </main>
 
     <footer>
+        <div class="footer__container">
         <div class="footer__links">
             <h5 class="footer__title">A propos</h5>
             <a class="footer__link">Fonctionnement du site</a>
@@ -363,12 +373,10 @@
             <a class="footer__link">Centre d'aide</a>
             <a class="footer__link">Nous contacter</a>
         </div>
+        </div>
             
     </footer>
     
-    <footer>
 
-        
-    </footer>
 </body>
 </html>
