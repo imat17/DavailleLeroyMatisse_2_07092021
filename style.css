@@ -194,6 +194,7 @@ h2 {
 .filter__container {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .filter__text {
@@ -353,7 +354,7 @@ h2 {
 }
 
 /*----------------------Responsive-------------------------*/
-@media all and (max-width: 1308px) and (min-width: 855px) {
+@media all and (max-width: 1114px) and (min-width: 855px) {
 	.accommodation {
 		grid-template-columns: 1fr 1fr;
 	}
