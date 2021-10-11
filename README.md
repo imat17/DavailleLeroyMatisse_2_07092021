@@ -1,5 +1,5 @@
 # DavailleLeroyMatisse_2_07092021
-Projet 2 "Booki" de la formation OpenClassRooms
+Projet 2 "Booki" de la formation Openclassrooms
 
 # Reservia
 Deuxième projet de la formation de Développeur Web d'OpenClassRooms. 
