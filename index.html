@@ -74,8 +74,8 @@
             <!--Hébergements-->
         <section class="accommodation">
             <h2 class="accommodation__title">Hébergements à Marseille</h2>
-            
-                <article class="card__container">
+            <div class="accommodation__container">
+                <article class="card__container--accomodation">
                     <a href="#">
                     <div class="card__header">
                         <img class="card__img" src="Images/hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière"/>
@@ -95,7 +95,7 @@
                 </article>
             
 
-                <article class="card__container">
+                <article class="card__container--accomodation">
                     <a href="#">
                     <div class="card__header">
                         <img class="card__img" src="Images/hebergement/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du port"/>
@@ -115,7 +115,7 @@
                 </article>
             
 
-                <article class="card__container">
+                <article class="card__container--accomodation">
                     <a href="#">
                     <div class="card__header">
                         <img class="card__img" src="Images/hebergement/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hotel les mouettes"/>
@@ -135,7 +135,7 @@
                 </article>
             
             
-                <article class="card__container">
+                <article class="card__container--accomodation">
                     <a href="#">
                     <div class="card__header">
                         <img class="card__img" src="Images/hebergement/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de la mer"/>
@@ -155,7 +155,7 @@
                 </article>
         
             
-                <article class="card__container">
+                <article class="card__container--accomodation">
                     <a href="#">
                     <div class="card__header">
                         <img class="card__img" src="Images/hebergement/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier"/>
@@ -175,7 +175,7 @@
                 </article>
         
             
-                <article class="card__container">
+                <article class="card__container--accomodation">
                     <a href="#">
                     <div class="card__header">
                         <img class="card__img" src="Images/hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel chez Amina"/>
@@ -193,17 +193,18 @@
                     </div>
                     </a> 
                 </article> 
-            
+            </div>
             <a class="viewmore" href="#">Afficher plus</a>
 
         </section>
 
         <!--Populaires-->
         <aside class="popular">
-            <h2 class="popular__title">Les plus populaires<span class="popular__icon"><i class="fas fa-chart-line"></i></span></h2>
-
             
-                <article class="card__container">
+            <h2 class="popular__title">Les plus populaires<span class="popular__icon"><i class="fas fa-chart-line"></i></span></h2>
+            <div class="popular__container">
+            
+                <article class="card__container--pop">
                     <a class="cardpop" href="#">
                     <div class="cardpop__header">
                         <img class="cardpop__img" src="Images/hebergement/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel du port"/>
@@ -226,7 +227,7 @@
                 </article>
             
             
-                <article class="card__container">
+                <article class="card__container--pop">
                     <a class="cardpop" href="#">
                     <div class="cardpop__header">
                         <img class="cardpop__img" src="Images/hebergement/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau chambres d'hôtes"/>
@@ -250,7 +251,7 @@
             
 
             
-                <article class="card__container">
+                <article class="card__container--pop">
                     <a class="cardpop" href="#">
                     <div class="cardpop__header">
                         <img class="cardpop__img" src="Images/hebergement/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"/>
@@ -271,87 +272,84 @@
                     
                     </a>
                 </article>
+            </div>
         </aside>
     </div>
         <!--Activitées-->
-        <div class="mainactivity" id="mainactivity">
-            <h2>Activités à Marseille</h2>
-            <div class="activity">
-                <div class="activity__one">
+    <div class="mainactivity" id="mainactivity">
+        <h2>Activités à Marseille</h2>
+
+        <div class="activity">
+
+            
+                <div class="activity__big">
                     <a class="activity__card" href="#">
-                        <div class="activity__imgcontain">
-                            <img class="activity__img" src="Images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port de Marseille"/>
-                        </div>
+                        <img class="activity__img--big" src="Images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port de Marseille"/>
                         <div class="activity__place">
                             <h3>Vieux Port</h3>
                         </div>
                     </a>
                 </div>
                 
-                
-                <div class="activity__two">
+                <div class="activity__big">
+
+                    <div class="activity__two">
+                        <a class="activity__card" href="#">
+                            <img class="activity__img--2" src="Images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/>
+                            <div class="activity__place">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="activity__three">
+                        <a class="activity__card" href="#">               
+                            <img class="activity__img--3" src="Images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul"/>
+                            <div class="activity__place">
+                                <h3>Îles du Frioul</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                </div> 
+
+
+                <div class="activity__big">
                     <a class="activity__card" href="#">
-                        <div class="activity__imgcontain">
-                            <img class="activity__img" src="Images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/>
-                        </div>
-                        <div class="activity__place">
-                            <h3>Fort de Pomègues</h3>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="activity__three">
-                    <a class="activity__card" href="#">               
-                        <div class="activity__imgcontain">
-                            <img class="activity__img" src="Images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul"/>
-                        </div>
-                        <div class="activity__place">
-                            <h3>Îles du Frioul</h3>
-                        </div>
-                    </a>
-                </div>
-                
-
-                <div class="activity__four">
-                    <a class="activity__card" href="#">
-                        <div class="activity__imgcontain">
-                            <img class="activity__img" src="Images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/>
-                        </div>
+                        <img class="activity__img--big" src="Images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/>
                         <div class="activity__place">
                             <h3>Parc National des Calanques</h3>
                         </div>
                     </a>
                 </div>
 
-                
-                    
-                <div class="activity__five">
-                    <a class="activity__card" href="#">
-                        <div class="activity__imgcontain">
-                            <img class="activity__img" src="Images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/>
-                        </div>
-                        <div class="activity__place">
-                            <h3>Notre-Dame-de-la-Garde</h3>
-                        </div>
-                    </a>
-                </div>
+                <div class="activity__big">
+
+                    <div class="activity__five">
+                        <a class="activity__card" href="#">
+                            <img class="activity__img--5" src="Images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/>
+                            <div class="activity__place">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </a>
+                    </div>
 
 
-                <div class="activity__six">
-                    <a class="activity__card" href="#">
-                        <div class="activity__imgcontain">
-                            <img class="activity__img" src="Images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/>
-                        </div>
-                        <div class="activity__place">
-                            <h3>Parc Longchamp</h3>
-                        </div>
-                    </a>
+                    <div class="activity__six">
+                        <a class="activity__card" href="#">
+                            <img class="activity__img--6" src="Images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/>
+                            <div class="activity__place">
+                                <h3>Parc Longchamp</h3>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
-                
-            </div>
-        </div> 
-    </main>
+
+        </div>
+    </div> 
+</main>
 
     <footer>
         <div class="footer__container">
