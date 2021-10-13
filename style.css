@@ -213,9 +213,7 @@ h2 {
 
 .accommodation__title {
 	display: flex;
-	margin-top: 45px;
-	margin-left: 40px;
-	margin-bottom: 25px;
+	margin: 45px 0 25px 40px;
 }
 
 .card__container--accomodation {
@@ -303,9 +301,7 @@ h2 {
 	box-shadow: 0 0 20px rgb(167, 166, 166);
 	border-radius: 15px;
 	transition: 0.7s;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 33px;
+	margin: 0 40px 33px 40px;
 	max-width: 100%;
 	min-height: 144px;
 }
@@ -380,6 +376,10 @@ h2 {
 .activity__big {
 	width: 25%;
 	margin-right: 40px;
+}
+
+.activity__big:nth-child(4) {
+	margin-right: 0;
 }
 
 .activity__img--big {
@@ -586,10 +586,8 @@ footer {
 	}
 
 	.card__container--pop {
-		margin-bottom: 20px;
+		margin: 0 15px 20px 15px ;
 	}
-
-
 }
 
 
@@ -602,7 +600,15 @@ footer {
 		background-color: white;
 		width: 100%;
 		height: auto;
+		margin-right: auto;
 	}
+	.accommodation__title {
+		margin-left: 5px;
+	}
+	.viewmore {
+		margin-left: 5px;
+	}
+	
 }
 
 /*---------------Accomodation responsive Mobile--------------*/
@@ -610,6 +616,8 @@ footer {
 	.accommodation__container {
 		display: flex;
 		flex-direction: column;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 	.card__container--accomodation {
 		width: 100%;
